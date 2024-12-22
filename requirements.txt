@@ -1,0 +1,6 @@
+vis~=0.0.5
+streamlit
+tensorflow
+tf-keras-vis
+matplotlib
+numpy
