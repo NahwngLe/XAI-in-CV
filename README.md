@@ -29,3 +29,19 @@ To run the app, use the following command:
 ```
 streamlit run app.py
 ```
+
+## Project Structure:
+```plaintext
+├── app.py                  # Main Streamlit application file
+├── requirements.txt        # File containing the list of dependencies
+└── images/                 # Folder to store uploaded images (if required)
+```
+
+## Description
+- The app uses **MobileNetV2** from TensorFlow for image classification.
+- It employs Grad-CAM and Saliency maps from the tf-keras-vis library to visualize how the model makes predictions based on the input image.
+- The Streamlit framework is used to build the web application interface, allowing users to upload an image, view the classification result, and see the visualizations.
+
+## Notes
+- The application uses MobileNetV2 as the pretrained model. You can customize the model or change the architecture if needed.
+- Make sure the image uploaded is in a supported format (e.g., JPEG, PNG).
